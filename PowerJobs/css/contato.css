@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  border: none;
+
+
+}
+
+body{
+  background-image: url(../Imagens/Fundo.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+
+}
+
+#cabecalho {
+  background-color: #00d2c0;
+
+}
+
+#logo {
+  height: 180px;
+  width: 180px;
+  padding-left: 30px;
+}
+
+#logo {
+  display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 30px;
+}
+
+
+#titulo {
+  text-decoration: none;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: 60px;
+  text-shadow: -4px -4px #A5A5A5;
+
+}
+
+#nomes {
+
+  height: 30px;
+  width:  500px;
+  font-size: 24px;
+  font-family: 'Arial', sans-serif;
+  color: black;
+  text-align: center;
+  width: 70%;
+  margin-top: 30px;
+  display:inline;
+  line-height: 4;
+
+}

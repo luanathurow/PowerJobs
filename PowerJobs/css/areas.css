@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+ body {
+    background-color: #CECECE;
+  }
+
+  #cabecalho {
+    background-color: #00d2c0;
+  }
+
+  #informacoes{
+    height: 20px; 
+    width: 20px;
+  }
+
+  /*Logo + Nome do Site*/
+  #logo {
+     height: 180px;
+     width: 180px;
+     padding-left: 30px;
+    }
+    #logo, #nomeSite {
+      display: inline-block;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-right: 30px;
+    }
+    #nomeSite {
+      text-decoration: none;
+      color: white;
+      font-family: 'Roboto Slab', serif;
+      font-size: 80px;
+      text-shadow: -4px -4px #A5A5A5;
+    }
+
+    /*Contato | Cadastro | Entrar*/
+    #imagemInfo{
+      height: 20px;
+      width: 20px;
+    }
+    #nav-login {
+      text-align: right;
+      padding-top: 7px;
+      padding-right: 5px;
+    }
+    #nav-login a {
+      display: inline-block;
+      text-align: center;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    .letra-login {
+      text-decoration: none;
+      text-align: right;
+      font-size: 18px;
+      font-family: 'Arial', sans-serif;
+      color: #2C2C2C;
+    }
+
+    /*Menu com links para paginas html*/
+    .letra-menu {
+      display: inline-block;
+      text-align: center;
+      width: 19.450%;
+      height: 32px;
+      border: 2px solid #CECECE;
+      background-color: white;
+    }
+    .letra-menu a{
+      text-decoration: none;
+      text-align: center;
+      font-size: 20px;
+      font-family: 'Arial', sans-serif;
+      color: #444242;
+    }
+    #qualProfissaoDevoSeguir{
+        position: absolute;
+        left: 250px; /*posicionado 400px para esquerda*/
+        top: 350px; /*posicionado 70px para baixo*/
+        text-decoration: none;
+        text-align: center;
+        color: black;
+        font-family: 'Roboto Slab', serif;
+        font-size: 35px;
+    }
+
+    #imagem{
+            position: absolute;
+            left: 400px;
+            top: 420px;
+            height: 20px;
+            width: 20px;
+          }
+
+          .paragrafo{
+            position: absolute;
+            left: 30px;
+            top: 800px;
+            font-size: 20px;
+          }
+
+          .paragrafo2{
+            position: absolute;
+            left: 30px;
+            top: 1000px;
+            font-size: 20px;
+          }
+
+          .paragrafo3{
+            position: absolute;
+            left: 30px;
+            top: 1200px;
+            font-size: 20px;
+          }
+
+          .dica01{
+            position: absolute;
+            left: 100px;
+            top: 750px;
+             font-size: 35px;
+              font-family: 'Arial', sans-serif;
+              color: #3b3939;
+          }
+          .dica02{
+            position: absolute;
+            left: 100px;
+            top: 930px;
+             font-size: 35px;
+              font-family: 'Arial', sans-serif;
+              color: #3b3939;
+          }
+          .dica03{
+            position: absolute;
+            left: 100px;
+            top: 1130px;
+             font-size: 35px;
+              font-family: 'Arial', sans-serif;
+              color: #3b3939;
+          }
+
+
+

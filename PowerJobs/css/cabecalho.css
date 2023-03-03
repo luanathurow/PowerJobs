@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  text-decoration: none;
+}
+
+#cabecalho {
+  background-color: #00d2c0;
+}
+
+/*Logo + Nome do Site*/
+
+#logo {
+  height: 180px;
+  width: 180px;
+  margin-left: 30px;
+  padding-bottom: 15px;
+}
+
+#logo, #nomeSite {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 30px;
+  vertical-align: middle;
+}
+
+#nomeSite {
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: 80px;
+  text-shadow: -4px -4px #A5A5A5;
+  margin-top: 45px;
+}
+
+
+/*Contato | Cadastro | Entrar*/
+#imagemInfo{
+  height: 20px;
+  width: 20px;
+}
+
+#nav-login {
+  text-align: right;
+  padding-top: 7px;
+  padding-right: 5px;
+  vertical-align: middle;
+}
+
+#nav-login a {
+  display: inline-block;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.letra-login {
+  text-align: right;
+  font-size: 18px;
+  font-family: 'Arial', sans-serif;
+  color: #2C2C2C;
+}
+
+/*Menu com links para paginas html*/
+ul{
+	vertical-align: text-top; 
+}
+
+.letra-menu {
+  text-align: center;
+  width: 19.689%;
+  height: 27px;
+  border: 2px solid #CECECE;
+  background-color: white;
+  display: inline-block;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+#nav-menu {
+  margin-bottom: 45px;
+  background-color: #CECECE;
+}
+
+.letra-menu a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    color: #2C2C2C;
+}

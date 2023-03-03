@@ -1,0 +1,121 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
+body {
+  background-image: url(../imagens/Fundo.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*Pesquisa
+#formBusca {
+  text-align: center;
+  vertical-align: middle;
+}
+
+#txtBusca {
+  padding-left:10px;
+  font-size: 18px;
+  border: 1px solid #a5a5a5;
+  width: 50%;
+  height: 40px;
+  font-family: 'Arial', sans-serif;
+  color: black;
+}
+
+#btBusca {
+  border: 1px solid #a5a5a5;
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+}
+*/
+/*Formulário*/
+legend {
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 80px;
+  font-weight: bold;
+  color: #4B4B4B;
+}
+
+.areaFormulario {
+  display: block;
+  padding-top: 13px;
+}
+
+label {
+  font-size: 20px;
+  font-family: 'Roboto Slab', serif;
+  padding-left: 22%;
+  font-weight: bold;
+  color: #4B4B4B;
+}
+
+input, select {
+  border: 1px solid #a5a5a5;
+  border-radius: 5px;
+  height: 32px;
+  width: 64%;
+  font-size: 18px;
+  font-family: 'Arial', sans-serif;
+  margin-left: 18%;
+  padding-left: 10px;
+  color: black;
+}
+
+select {
+  color: #CECECE;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #CECECE;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #CECECE;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #CECECE;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #CECECE;
+}
+
+input[type=radio] {
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  margin-left: 20%
+}
+
+input[type=submit], input[type=button] {
+  height: 50px;
+  width: 20%;
+  background-color: #787878;
+  display: inline-block;
+  margin-top: 100px;
+  margin-bottom: 130px;
+  border-radius: 5px;
+  font-family: 'Arial', sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+.txtRadio {
+  font-size: 20px;
+  font-family: 'Roboto Slab', serif;
+  padding-left: 10px;
+  font-weight: bold;
+  color: #4B4B4B;
+  display: inline-block;
+}
+
+input[type=submit] {
+  margin-left: 27.5%
+}
+
+input[type=button] {
+  margin-left: 5%
+}

@@ -1,0 +1,157 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+    
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+
+     body {
+        background-color: #CECECE;
+      }
+
+      #cabecalho {
+        background-color: #00d2c0;
+      }
+
+      #informacoes{
+        height: 20px; 
+        width: 20px;
+      }
+
+      /*Logo + Nome do Site*/
+      #logo {
+         height: 180px;
+         width: 180px;
+         padding-left: 30px;
+        }
+        #logo, #nomeSite {
+          display: inline-block;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          padding-right: 30px;
+        }
+        #nomeSite {
+          text-decoration: none;
+          color: white;
+          font-family: 'Roboto Slab', serif;
+          font-size: 80px;
+          text-shadow: -4px -4px #A5A5A5;
+        }
+
+        /*Contato | Cadastro | Entrar*/
+        #imagemInfo{
+          height: 20px;
+          width: 20px;
+        }
+        #nav-login {
+          text-align: right;
+          padding-top: 7px;
+          padding-right: 5px;
+        }
+        #nav-login a {
+          display: inline-block;
+          text-align: center;
+          padding-left: 5px;
+          padding-right: 5px;
+        }
+        .letra-login {
+          text-decoration: none;
+          text-align: right;
+          font-size: 18px;
+          font-family: 'Arial', sans-serif;
+          color: #2C2C2C;
+        }
+
+        /*Menu com links para paginas html*/
+        .letra-menu {
+          display: inline-block;
+          text-align: center;
+          width: 19.500%;
+          height: 32px;
+          border: 2px solid #CECECE;
+          background-color: white;
+        }
+        .letra-menu a{
+          text-decoration: none;
+          text-align: center;
+          font-size: 20px;
+          font-family: 'Arial', sans-serif;
+          color: #444242;
+        }
+
+      #profissoesMaisAcessadas{
+        position: absolute;
+        left: 350px; /*posicionado 400px para esquerda*/
+        top: 350px; /*posicionado 70px para baixo*/
+        text-decoration: none;
+        text-align: center;
+        color: black;
+        font-family: 'Roboto Slab', serif;
+        font-size: 50px;
+      }
+
+      #imagem01{
+        position: absolute;
+        left: 350px;
+        top: 420px;
+        height: 3500;
+        width: 3000;
+      }
+
+      #programador{
+        position: absolute;
+        left: 150px;
+        top: 900px;
+        color: black;
+        font-family: 'Roboto Slab', serif;
+        font-size: 40px;
+      }
+
+      #imagemprogramador{
+        position: absolute;
+        left: 300px;
+        top: 980px;
+        height: 3000;
+        width: 2500;
+      }
+
+      /*Escritas*/
+      .paragrafo{
+        position: absolute;
+        left: 300px;
+        top: 1460px;
+        font-size: 20px;
+      }
+      .paragrafo1{
+        position: absolute;
+        left: 300px;
+        top: 1490px;
+        font-size: 20px;
+      }
+      .paragrafo3{
+        position: absolute;
+        left:300px;
+        top: 1520px;
+        font-size: 20px;
+      }
+      .paragrafo5{
+        position: absolute;
+        left:300px;
+        top: 1550px;
+        font-size: 20px;
+      }
+      .paragrafo7{
+        position: absolute;
+        left:300px;
+        top: 1580px;
+        font-size: 20px;
+      }
+      .paragrafo9{
+        position: absolute;
+        left:300px;
+        top: 1610px;
+        font-size: 20px;
+      }
+   
